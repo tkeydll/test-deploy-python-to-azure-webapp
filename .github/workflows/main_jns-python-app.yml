@@ -79,6 +79,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'jns-python-app'
+          app-name: 'jns-python-app-test'
           slot-name: 'Production'
           
