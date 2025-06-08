@@ -8,6 +8,9 @@ on:
   push:
     branches:
       - main
+    files:
+      - 'app/**'
+      - '.github/workflows/main_jns-python-app.yml'
   workflow_dispatch:
 
 jobs:

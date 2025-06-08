@@ -7,6 +7,9 @@ env:
 on:
   push:
     branches: [ "main" ]
+    files:
+      - 'app/**'
+      - '.github/workflows/azure-webapps-python.yml'
   workflow_dispatch:
 
 permissions:
